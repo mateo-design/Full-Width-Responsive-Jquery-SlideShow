@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+       Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <title>templates</title>
+  <meta name="description" content="" />
+  <meta name="author" content="Mathieu Bocher" />
+
+  <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <style type="text/css">
+  	body{
+  		margin:0;
+  		padding:0;
+  		background:url("images/mainBkg.jpg");
+  	}
+  	
+  </style>
+  
+</head>
+
+<body>
+  <div>
+    <header>
+      <h1>FULL WITH RESPONSIVE SLIDER</h1>
+    </header>
+
+
+    <div id="slider">
+
+ 		<div class="arrow" id="leftArrow"></div>
+        <div class="arrow" id="rightArrow"></div>
+    	<div id="slider-window">
+              <div class="slide">
+              <div class="sliderText">
+             
+              <h1>"MADE WITH JQUERY"</h1>
+   			  <p>Lorem ipsum dolor sit amet, consectetur 
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat nibh turpis. Donec congue, enim vitae luctus.</p>
+              </div>
+                <img src="images/slider/ballGreen.jpg" alt="golf ball">
+              </div>
+             <div class="slide">
+             <div class="sliderText">
+             <h1>Um lugar de paz na terra</h1>
+   			  <p>Lorem ipsum dolor sit amet, consectetur 
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat nibh turpis. Donec congue, enim vitae luctus.</p></div>
+                <img src="images/slider/golf1.jpg" alt="golf ball">
+                
+              </div>
+             <div class="slide">
+             <div class="sliderText">
+             <h1>Um lugar de paz na terra</h1>
+   			  <p>Lorem ipsum dolor sit amet, consectetur 
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat nibh turpis. Donec congue, enim vitae luctus.</p></div>
+                <img src="images/slider/golf2.jpg" alt="golf ball">
+                
+             </div>
+                <div class="slide">
+                <div class="sliderText">
+                <h1>Um lugar de paz na terra</h1>
+   			  <p>Lorem ipsum dolor sit amet, consectetur 
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat nibh turpis. Donec congue, enim vitae luctus.</p>
+                </div>
+                <img src="images/slider/ballGreen.jpg" alt="golf ball">
+              </div>
+              <div class="slide">
+                <div class="sliderText">
+                <h1>Um lugar de paz na terra</h1>
+   			  <p>Lorem ipsum dolor sit amet, consectetur 
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat nibh turpis. Donec congue, enim vitae luctus.</p>
+                </div>
+                <img src="images/slider/ballGreen.jpg" alt="golf ball">
+              </div>
+              
+            </ul>
+     	</div>
+    	
+</div>
+
+
+    <footer>
+     <p>&copy; Copyright  by Mathieu Bocher</p>
+    </footer>
+  </div>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="responsivefullslide.jquery.js"></script>
+  <script type="text/javascript">
+  	$(document).ready(function(){
+  		$("#slider").responsiveFullSlide(500, 'easeInOutBack');
+  	});
+  	
+  </script>
+</body>
+</html>
